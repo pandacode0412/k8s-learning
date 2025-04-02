@@ -160,6 +160,9 @@ spec:
           terminationMessagePolicy: File
 
 
+
+
+
 # Lưu ý
           volumeMounts:
             - mountPath: /run/src/main/resources/application.properties
@@ -172,6 +175,8 @@ spec:
       schedulerName: default-scheduler
       securityContext: {}
       terminationGracePeriodSeconds: 30
+
+
 
 
 
